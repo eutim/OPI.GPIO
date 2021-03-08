@@ -5,4 +5,4 @@ I added a class for the h616 Orange Pi Zero 2.
 
 The installation completes without errors. Example sketches run without errors, however, it doesn't work yet.  
 
-GPIO.setboard(GPIO.H616) # Orange Pi Orange Pi Zero 2 board
+GPIO.setboard(GPIO.H616) # Orange Pi Zero 2 board
