@@ -91,8 +91,8 @@ void define_constants(PyObject *module)
 	bprime = Py_BuildValue("i", PRIME);
 	PyModule_AddObject(module, "PRIME", bprime);
 
-	bh616 = Py_BuildValue("i", h616);
-	PyModule_AddObject(module, "h616", bh616);
+	bh616 = Py_BuildValue("i", H616);
+	PyModule_AddObject(module, "H616", bh616);
 
 	version = Py_BuildValue("s", "0.6.3");
 	PyModule_AddObject(module, "VERSION", version);

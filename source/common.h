@@ -32,7 +32,7 @@ SOFTWARE.
 #define PLUS2E          4
 #define PC2             5
 #define PRIME           6
-#define ZERO2			7
+#define H616            7
 
 #define MODE_UNKNOWN   -1
 #define BOARD          10
