@@ -20,13 +20,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#define GPIO_BASE_OPI     (0x01C20000)
-#define SUNXI_GPIO_BASE   (0x01C20800)
+#define GPIO_BASE_OPI     (0x0300B000)
+#define SUNXI_GPIO_BASE   (0x0300B000)
 #define SUNXI_PWM_BASE    (0x01C21400)
 
 #define PAGE_SIZE         (4*1024)
 #define BLOCK_SIZE        (4*1024)
-#define MAP_SIZE          (4096*2)
+#define MAP_SIZE          (4096*1)
 #define MAP_MASK          (MAP_SIZE - 1)
 
 #define SETUP_OK          0
