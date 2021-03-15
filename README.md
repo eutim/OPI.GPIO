@@ -23,6 +23,7 @@ In 'c.gpio.h' i changed:
 
 -MAP_SIZE
 
-The installation completes without errors. Example sketches run without errors, however, it doesn't write to GPIO yet.  
+
+
 
 GPIO.setboard(GPIO.H616) # Orange Pi Zero 2 board
