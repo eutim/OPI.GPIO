@@ -181,6 +181,26 @@ int gpio_function_name(int gpio, int func, int board)
     case 2 :
       switch (gpio)
       {
+        case 229 : str = 1; break;
+        case 228 : str = 1; break;
+        case 73 : str = 1; break;
+        case 70 : str = 1; break;
+        case 69 : str = 1; break;
+        case 72 : str = 1; break;
+        case 231 : str = 1; break;
+        case 232 : str = 1; break;
+        case 230 : str = 1; break;
+        case 272 : str = 1; break;
+        case 262 : str = 1; break;
+        case 226 : str = 1; break;
+        case 227 : str = 1; break;
+        case 75 : str = 1; break;
+        case 79 : str = 1; break;
+        case 78 : str = 1; break;
+        case 71 : str = 1; break;
+        case 233 : str = 1; break;
+        case 74 : str = 1; break;
+
         case 0 : str = 27; break;
         case 1 : str = 28; break;
         case 2 : str = 29; break;
