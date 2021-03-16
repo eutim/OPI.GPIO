@@ -26,6 +26,7 @@ sudo python setup.py install
 - [ ] Testing UART
 - [ ] Testing TWI
 - [ ] Testing ADC
+- [ ] Fix BCM mode
 
 # References
 [OrangePi.GPIO](https://github.com/Jeremie-C/OrangePi.GPIO)
