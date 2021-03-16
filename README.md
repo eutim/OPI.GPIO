@@ -1,6 +1,16 @@
 # OPI.GPIO
 A modified version of OrangePi.GPIO to bring suport for the Orange Pi Zero2, Orange Pi 3 and the Orange Pi Lite2
 
+###### Installation 
+
+```
+sudo apt-get update
+sudo apt-get install python-dev git
+git clone https://github.com/Jeremie-C/OrangePi.GPIO
+cd /OrangePi.GPIO
+sudo python setup.py install
+```
+
 * GPIO.setboard(GPIO.H616) # Orange Pi Zero2 board
 
 * GPIO.setboard(GPIO.PI3) # Orange Pi3 board
