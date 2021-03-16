@@ -24,7 +24,6 @@ sudo python setup.py install
 * Testing Outputs
 * Testing I2C
 * Testing SPI
-* Testing Timers
 * Testing Interrupts
 * Testing PWM
 * Testing UART
