@@ -10,6 +10,7 @@ git clone https://github.com/Jeremie-C/OrangePi.GPIO
 cd /OrangePi.GPIO
 sudo python setup.py install
 ```
+###### Usage
 
 * GPIO.setboard(GPIO.H616) # Orange Pi Zero2 board
 
