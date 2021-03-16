@@ -15,5 +15,3 @@ GPIO.setboard(GPIO.LITE2) # Orange Pi Lite2 board
 [wiringOP](https://github.com/orangepi-xunlong/wiringOP)
 
 [RPi.GPIO](https://pypi.org/project/RPi.GPIO/)
-
-[GitHub Pages](https://pages.github.com/)
