@@ -28,6 +28,8 @@ sudo python setup.py install
 * Testing Interrupts
 * Testing PWM
 * Testing UART
+* Testing TWI
+* Testing ADC
 
 # References
 [OrangePi.GPIO](https://github.com/Jeremie-C/OrangePi.GPIO)
