@@ -29,9 +29,6 @@ sudo python setup.py install
 
 # References
 [OrangePi.GPIO](https://github.com/Jeremie-C/OrangePi.GPIO)
-
 [OPi.GPIO](https://github.com/rm-hull/OPi.GPIO)
-
 [wiringOP](https://github.com/orangepi-xunlong/wiringOP)
-
 [RPi.GPIO](https://pypi.org/project/RPi.GPIO/)
