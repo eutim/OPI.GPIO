@@ -21,6 +21,8 @@ SOFTWARE.
 */
 
 const int pin_to_gpio_h616[41];
+const int pin_to_gpio_pi3[41];
+const int pin_to_gpio_lite2[41];
 const int pin_to_gpio_zero[41];
 const int pin_to_gpio_zero2[41];
 const int pin_to_gpio_pc[41];

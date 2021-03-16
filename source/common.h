@@ -33,6 +33,9 @@ SOFTWARE.
 #define PC2             5
 #define PRIME           6
 #define H616            7
+#define PI3             8
+#define LITE2           9
+
 
 #define MODE_UNKNOWN   -1
 #define BOARD          10

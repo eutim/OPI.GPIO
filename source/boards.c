@@ -44,6 +44,46 @@ const int pin_to_gpio_h616[41] = {
   -1,-1,-1,-1,-1,-1,-1,-1
 };
 
+const int pin_to_gpio_pi3[41] = {
+  -1, -1, -1, // 0, 1, 2
+  122, -1, // 3, 4
+  121, -1, // 5, 6
+  118, 354, // 7, 8
+  -1, 355, // 9, 10
+  120, 144, // 11, 12
+  119, -1, // 13, 14
+  362, 111, // 15, 16
+  -1, 112, // 17, 18
+  229, -1, // 19, 20
+  230, 117, // 21, 22
+  228, 227, // 23, 24
+  -1, 360, // 25, 26
+  -1, -1, // 27, 28
+  -1, -1, // 29, 30
+  -1, -1, // 31, 32
+  -1,-1,-1,-1,-1,-1,-1,-1
+};
+
+const int pin_to_gpio_lite2[41] = {
+  -1, -1, -1, // 0, 1, 2
+  230, -1, // 3, 4
+  229, -1, // 5, 6
+  228, 117, // 7, 8
+  -1, 118, // 9, 10
+  120, 73, // 11, 12
+  119, -1, // 13, 14
+  122, 72, // 15, 16
+  -1, 71, // 17, 18
+  66, -1, // 19, 20
+  67, 121, // 21, 22
+  64, 69, // 23, 24
+  -1, 227, // 25, 26
+  -1, -1, // 27, 28
+  -1, -1, // 29, 30
+  -1, -1, // 31, 32
+  -1,-1,-1,-1,-1,-1,-1,-1
+};
+
 /* OrangePi Zero / Zero+ / R1 / Zero+2H5 */
 const int pin_to_gpio_zero[41] = {
   -1, -1, -1, // 0, 1, 2
@@ -181,15 +221,16 @@ int gpio_function_name(int gpio, int func, int board)
     case 2 :
       switch (gpio)
       {
+        /* Orange Pi Zero2*/
         case 229 : str = 1; break;
         case 228 : str = 1; break;
         case 73 : str = 1; break;
         case 70 : str = 1; break;
         case 69 : str = 1; break;
         case 72 : str = 1; break;
-        case 231 : str = 1; break;
-        case 232 : str = 1; break;
-        case 230 : str = 1; break;
+        case 231 : str = 19; break;
+        case 232 : str = 20; break;
+        case 230 : str = 18; break;
         case 272 : str = 1; break;
         case 262 : str = 1; break;
         case 226 : str = 1; break;
@@ -198,9 +239,37 @@ int gpio_function_name(int gpio, int func, int board)
         case 79 : str = 1; break;
         case 78 : str = 1; break;
         case 71 : str = 1; break;
-        case 233 : str = 1; break;
+        case 233 : str = 19; break;
         case 74 : str = 1; break;
+        /*Orange Pi 3*/
+        case 122 : str = 6; break;
+        case 121 : str = 5; break;
+        case 118 : str = 1; break;
+        case 120 : str = 1; break;
+        case 119 : str = 1; break;
+        case 230 : str = 1; break;
+        case 114 : str = 1; break;
+        case 111 : str = 1; break;
+        case 112 : str = 1; break;
+        case 117 : str = 1; break;
+        case 360 : str = 1; break;
 
+        /*Orange Pi Lite2*/
+        case 230 : str = 1; break;
+        case 66 : str = 19; break;
+        case 67 : str = 20; break;
+        case 64 : str = 18; break;
+        case 73 : str = 1; break;
+        case 72 : str = 1; break;
+        case 71 : str = 1; break;
+        case 69 : str = 1; break;
+
+
+
+
+
+
+        /*Older boards, not supported by this modified library*/
         case 0 : str = 27; break;
         case 1 : str = 28; break;
         case 2 : str = 29; break;

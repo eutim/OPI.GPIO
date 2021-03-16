@@ -46,5 +46,8 @@ PyObject *bpc;
 PyObject *bpc2;
 PyObject *bprime;
 PyObject *bh616;
+PyObject *blite2;
+PyObject *bpi3;
+
 
 void define_constants(PyObject *module);
