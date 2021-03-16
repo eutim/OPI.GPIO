@@ -239,7 +239,7 @@ int gpio_function_name(int gpio, int func, int board)
         case 79 : str = 1; break;
         case 78 : str = 1; break;
         case 71 : str = 1; break;
-        case 233 : str = 19; break;
+        case 233 : str = 17; break;
         case 74 : str = 1; break;
         /*Orange Pi 3*/
         case 122 : str = 6; break;
