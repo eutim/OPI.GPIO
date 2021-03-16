@@ -18,6 +18,16 @@ sudo python setup.py install
 
 * GPIO.setboard(GPIO.LITE2) # Orange Pi Lite2 board
 
+###### To-Do
+
+* Testing Inputs
+* Testing Outputs
+* Testing I2C
+* Testing SPI
+* Testing Timers
+* Testing Interrupts
+* Testing PWM
+
 # References
 [OrangePi.GPIO](https://github.com/Jeremie-C/OrangePi.GPIO)
 
