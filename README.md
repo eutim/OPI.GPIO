@@ -6,8 +6,8 @@ A modified version of OrangePi.GPIO to bring suport for the Orange Pi Zero2, Ora
 ```
 sudo apt-get update
 sudo apt-get install python-dev git
-git clone https://github.com/Jeremie-C/OrangePi.GPIO
-cd /OrangePi.GPIO
+git clone https://github.com/eutim/OPI.GPIO
+cd OPI.GPIO
 sudo python setup.py install
 ```
 ###### Usage
