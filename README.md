@@ -27,6 +27,7 @@ sudo python setup.py install
 * Testing Timers
 * Testing Interrupts
 * Testing PWM
+* Testing UART
 
 # References
 [OrangePi.GPIO](https://github.com/Jeremie-C/OrangePi.GPIO)
