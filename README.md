@@ -20,15 +20,15 @@ sudo python setup.py install
 
 ###### To-Do
 
-* Testing Inputs
-* Testing Outputs
-* Testing I2C
-* Testing SPI
-* Testing Interrupts
-* Testing PWM
-* Testing UART
-* Testing TWI
-* Testing ADC
+- [ ] Testing Inputs
+- [x] Testing Outputs
+- [ ] Testing I2C
+- [ ] Testing SPI
+- [ ] Testing Interrupts
+- [ ] Testing PWM
+- [ ] Testing UART
+- [ ] Testing TWI
+- [ ] Testing ADC
 
 # References
 [OrangePi.GPIO](https://github.com/Jeremie-C/OrangePi.GPIO)
