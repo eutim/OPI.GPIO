@@ -222,15 +222,17 @@ int gpio_function_name(int gpio, int func, int board)
       switch (gpio)
       {
         /* Orange Pi Zero2*/
+        case 231 : str = 19; break;
+        case 232 : str = 20; break;
+        case 230 : str = 18; break;
+        case 233 : str = 17; break;
+/*
         case 229 : str = 1; break;
         case 228 : str = 1; break;
         case 73 : str = 1; break;
         case 70 : str = 1; break;
         case 69 : str = 1; break;
         case 72 : str = 1; break;
-        case 231 : str = 19; break;
-        case 232 : str = 20; break;
-        case 230 : str = 18; break;
         case 272 : str = 1; break;
         case 262 : str = 1; break;
         case 226 : str = 1; break;
@@ -239,11 +241,12 @@ int gpio_function_name(int gpio, int func, int board)
         case 79 : str = 1; break;
         case 78 : str = 1; break;
         case 71 : str = 1; break;
-        case 233 : str = 17; break;
         case 74 : str = 1; break;
+*/
         /*Orange Pi 3*/
         case 122 : str = 6; break;
         case 121 : str = 5; break;
+        /*
         case 118 : str = 1; break;
         case 120 : str = 1; break;
         case 119 : str = 1; break;
@@ -253,16 +256,18 @@ int gpio_function_name(int gpio, int func, int board)
         case 112 : str = 1; break;
         case 117 : str = 1; break;
         case 360 : str = 1; break;
-
+        */
         /*Orange Pi Lite2*/
-        case 230 : str = 1; break;
         case 66 : str = 19; break;
         case 67 : str = 20; break;
         case 64 : str = 18; break;
+        /*
+        case 230 : str = 1; break;
         case 73 : str = 1; break;
         case 72 : str = 1; break;
         case 71 : str = 1; break;
         case 69 : str = 1; break;
+        */
 
 
 
