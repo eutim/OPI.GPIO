@@ -29,9 +29,6 @@ sudo python setup.py install
 - [ ] Fix BCM mode
 
 
-https://user-images.githubusercontent.com/80167596/111470676-6651a380-8728-11eb-963c-206ca80874a6.mp4
-
-
 # References
 [OrangePi.GPIO](https://github.com/Jeremie-C/OrangePi.GPIO)
 
