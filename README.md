@@ -21,7 +21,7 @@ sudo python setup.py install
 - [x] Testing Outputs
 - [ ] Testing I2C
 - [ ] Testing SPI
-- [ ] Testing Interrupts
+- [x] Testing Interrupts
 - [ ] Testing PWM
 - [ ] Testing UART
 - [ ] Testing TWI
