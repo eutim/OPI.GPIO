@@ -17,7 +17,7 @@ sudo python setup.py install
 
 ###### To-Do
 
-- [ ] Testing Inputs
+- [x] Testing Inputs
 - [x] Testing Outputs
 - [ ] Testing I2C
 - [ ] Testing SPI
