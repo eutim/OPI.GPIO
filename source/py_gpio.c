@@ -217,7 +217,7 @@ static PyObject *py_setup_channel(PyObject *self, PyObject *args, PyObject *kwar
 
   func = gpio_function(gpio);
   /* Prevent Break of SPI, TWI, UART,... */
-  if (func != 0 && func != 1 && func != 7) {
+  /* if (func != 0 && func != 1 && func != 7) {
     fn = gpio_function_name(gpio, func, board_type);
     PyErr_Format(PyExc_ValueError, "This channel is already in use by system as %s.", FUNCTIONS[fn]);
     return NULL;
@@ -226,7 +226,7 @@ static PyObject *py_setup_channel(PyObject *self, PyObject *args, PyObject *kwar
   if (gpio_warnings && (gpio_direction[gpio] == -1 && func == 1))
   {
     PyErr_Warn(NULL, "This channel is already in use, continuing anyway. Use GPIO.setwarnings(False) to disable warnings.");
-  }
+  } */
 
   if (direction == OUTPUT && (initial == LOW || initial == HIGH))
   {
