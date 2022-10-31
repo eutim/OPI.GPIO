@@ -27,6 +27,8 @@ SOFTWARE.
 
 int board_type = BOARD_UNKNOWN;
 int gpio_mode = MODE_UNKNOWN;
+const int (*pin_to_gpio)[41];
+int gpio_direction[383];
 int setup_error = 0;
 int module_setup = 0;
 

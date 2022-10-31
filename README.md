@@ -8,7 +8,7 @@ sudo apt-get update
 sudo apt-get install python-dev git
 git clone https://github.com/eutim/OPI.GPIO
 cd OPI.GPIO
-sudo python setup.py install
+sudo python3 setup.py install
 ```
 ###### Usage
 * GPIO.setboard(GPIO.H616) # Orange Pi Zero2 board
