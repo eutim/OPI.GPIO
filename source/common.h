@@ -44,13 +44,13 @@ SOFTWARE.
 
 #define ALT_UNKNOWN    -1
 
-int board_type;
-int gpio_mode;
-const int (*pin_to_gpio)[41];
+extern int board_type;
+extern int gpio_mode;
+extern const int (*pin_to_gpio)[41];
 
-int gpio_direction[383];
-int setup_error;
-int module_setup;
+extern int gpio_direction[383];
+extern int setup_error;
+extern int module_setup;
 
 int get_gpio_number(int channel, unsigned int *gpio);
 int check_gpio_priv(void);

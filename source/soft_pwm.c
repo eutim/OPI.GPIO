@@ -26,7 +26,7 @@ SOFTWARE.
 #include "c_gpio.h"
 #include "common.h"
 #include "soft_pwm.h"
-pthread_t threads;
+static pthread_t threads;
 
 struct pwm
 {
